@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    background-color: aqua;
+    height: 150px;
+}
+.item{
+    width: 100px;
+    height: 100px;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: black;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.coluna{
+    flex-direction: column;
+}
+.justify-center{
+    justify-content: center;
+}
+.items-center{
+    align-items: center;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.row{
+    /* flex-direction: row-reverse; */
+    justify-content: space-evenly;
+}
